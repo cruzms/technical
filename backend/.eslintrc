@@ -1,0 +1,21 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "globals": {
+      "use": true,
+      "make": true,
+      "it": true,
+      "describe": true,
+      "after": true,
+      "before": true
+    },
+    "rules": {
+      "class-methods-use-this": "off",
+      "padded-blocks": ["error", { "classes": "always" }],
+      "max-len": ["error", 400],
+      "camelcase": [0, {"properties": "always"}]
+    }
+  }
